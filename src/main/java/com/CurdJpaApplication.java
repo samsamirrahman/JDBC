@@ -20,7 +20,9 @@ public class CurdJpaApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext ctx=SpringApplication.run(CurdJpaApplication.class, args);
+
 		int b=20;
+
 		Student s4=new Student(104, "d", "e.tech");
 		Student s5=new Student(105, "e", "f.tech");
 		Student s6=new Student(106, "f", "g.tech");
